@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CodeMate</title>
+    <meta name="author" content="Lei Wu, fred.wulei@gmail.com">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="/socket.io/socket.io.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,300' rel='stylesheet' type='text/css'>
+     <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/ace/src-min/ace.js" type="text/javascript" charset="utf-8"></script>
+    
+    
+
+</head>
+<body>
+    <div id="wrapper">
+    <div id='main'>
+        <div id='left'>
+            <!-- <div id='editor' class='panel'>Editor</div> -->
+            <div id='editor-container' class='panel'>
+            <pre id='editor'>def hello():
+    print "Let's rock with CodeMate~"
+hello()</pre>
+            </div>
+            <div id="handle-1" class="resizer" drag="false"></div>
+            <pre id='console' class='panel'></pre>
+        </div>
+        <div id="handle-2" class="resizer"></div>
+        <div id='right'>
+            <div id='problem' class='panel'><div>Just simply click and paste your problem screenshot here~ (currently works only on Chrome)</div></div>
+            <div id="handle-3" class="resizer" drag="false"></div>
+            <div id='message' class='panel'>
+                <div id='message-container'></div>
+                <div id='message-sender'><input type='text' id='message-body' placeholder='Send with "Enter"' /></div>
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        <button id='run'>Run</button>
+        <!-- <button id='test'>Test</button> -->
+        <span id='room-name'></span>
+        <span id='user-list'></span>
+        <div id='credit'><span class='logo'>CodeMate</span> by Fred Wu 
+        | <a href="mailto:fred.wulei@gmail.com?Subject=Feedback%20on%20CodeMate" target="_top">GitHub</a>
+        | <a href="mailto:fred.wulei@gmail.com?Subject=Feedback%20on%20CodeMate" target="_top">Feedback</a>
+        </div>
+    </footer>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+
+
+
+</body>
+
+</html>

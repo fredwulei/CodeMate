@@ -1,0 +1,31 @@
+{
+  "name": "codemate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "mangodb": "^1.0.0",
+    "socket.io": "^1.4.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fredwulei/CodeMate.git"
+  },
+  "keywords": [
+    "online",
+    "ide",
+    "node.js",
+    "socket.io"
+  ],
+  "author": "Fred Wu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fredwulei/CodeMate/issues"
+  },
+  "homepage": "https://github.com/fredwulei/CodeMate#readme"
+}
